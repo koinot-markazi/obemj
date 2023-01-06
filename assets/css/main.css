@@ -1,4 +1,4 @@
-﻿@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300);
 @import url(https://fonts.googleapis.com/css?family=Muli);
 /*You can add your won color also */
 body {
@@ -1126,7 +1126,7 @@ ul li > ul > li.active > a {
 
 .fact-counter.style-two .column .inner{
   text-align: left;
-    border-right: 1px solid rgba(255,255,255,0.20);
+    /* border-right: 1px solid rgba(255,255,255,0.20); */
 }
 
 .fact-counter.style-two .column .inner1{
@@ -3978,4 +3978,11 @@ ul.contact-info2 i.fa {
     font-size: 13px;
     line-height: 23px;
   }
+}
+
+.table{
+  text-align: center;
+}
+.table td:nth-child(-n + 3){
+  text-align: left;
 }
